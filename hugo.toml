@@ -1,7 +1,7 @@
-baseURL = 'https://imiron-io.github.io/'
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Imiron'
-theme = 'custom'
+title = 'My New Hugo Site'
+theme = 'ananke'
 
 [menu]
   [[menu.main]]
