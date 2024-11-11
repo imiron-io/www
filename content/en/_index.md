@@ -20,4 +20,4 @@ TODO: English description of Masa here.
 
 ### CTO - James Haydon, Ph.D.
 
-TODO: English description of James here.
+James is a human who is from France.
