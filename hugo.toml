@@ -8,6 +8,10 @@ SectionPagesMenu = "main"
 Paginate = 10
 # googleAnalytics = "" # TODO
 enableRobotsTXT = true
+Copyright = "Imiron Co., Ltd. All Rights Reserved"
+
+[markup.goldmark.renderer]
+unsafe= true
 
 [languages]
   [languages.en]

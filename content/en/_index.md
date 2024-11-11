@@ -5,7 +5,19 @@ cascade:
   featured_image: '/images/city.png'
 ---
 
-Welcome to the Imiron website. This is the homepage content.
-
 いみ-ろん【意味論】
 (i-mi-ro-n = "formal sematics" in Japanese)
+
+## Team
+
+### Director/Cofounder - Ichiro Hasuo, Ph.D.
+
+TODO: English description of Ichiro here.
+
+### CEO - Masakazu Adachi, Ph.D.
+
+TODO: English description of Masa here.
+
+### CTO - James Haydon, Ph.D.
+
+TODO: English description of James here.
