@@ -1,0 +1,3 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = git@github.com:imiron-io/gohugo-theme-ananke.git
