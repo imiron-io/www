@@ -43,3 +43,5 @@ date_format = ":date_full"
 # [[params.ananke_socials]]
 # name = "twitter"
 # url = "https://twitter.com/GoHugoIO"
+
+custom_css = ["custom.css"]
