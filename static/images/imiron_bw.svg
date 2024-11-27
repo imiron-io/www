@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="239.08893mm"
+   height="59.795849mm"
+   viewBox="0 0 847.16549 211.87505"
+   id="svg2"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-18.327891,552.78471)">
+    <rect
+       style="fill:#1572a1;fill-opacity:1;stroke-width:1.04235"
+       id="rect3-4"
+       width="166.88579"
+       height="23.4375"
+       x="-507.79544"
+       y="-117.08631"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#1572a1;fill-opacity:1;stroke-width:1.09876"
+       id="rect3-3-7"
+       width="187.13173"
+       height="23.225037"
+       x="-406.0495"
+       y="399.93103"
+       transform="matrix(-0.9080914,0.41877203,-0.42648438,-0.90449493,0,0)" />
+    <rect
+       style="fill:#1572a1;fill-opacity:1;stroke-width:0.919276"
+       id="rect4-5-4"
+       width="131.15337"
+       height="23.196016"
+       x="-103.26601"
+       y="475.52341"
+       transform="matrix(-0.96663747,-0.25614839,0.26151351,-0.96519982,0,0)" />
+    <rect
+       style="fill:#1572a1;fill-opacity:1;stroke-width:0.919276"
+       id="rect4-0-9"
+       width="131.15337"
+       height="23.196016"
+       x="-113.81429"
+       y="436.53336"
+       transform="matrix(-0.96663747,-0.25614839,0.26151351,-0.96519982,0,0)" />
+    <rect
+       style="fill:#1572a1;fill-opacity:1;stroke-width:0.919276"
+       id="rect4-2-5"
+       width="131.15337"
+       height="23.196016"
+       x="-124.36269"
+       y="397.5434"
+       transform="matrix(-0.96663747,-0.25614839,0.26151351,-0.96519982,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:225px;font-family:'Josefin Sans';-inkscape-font-specification:'Josefin Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#333333;fill-opacity:1;stroke-width:0.9375"
+       x="256.19336"
+       y="-358.65039"
+       id="text7-9"><tspan
+         id="tspan7-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:225px;font-family:'Josefin Sans';-inkscape-font-specification:'Josefin Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.9375"
+         x="256.19336"
+         y="-358.65039">imiron</tspan></text>
+  </g>
+</svg>

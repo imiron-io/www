@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="239.08893mm"
+   height="59.79583mm"
+   viewBox="0 0 847.16549 211.87499"
+   id="svg2"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(4.2383004,264.71288)">
+    <g
+       id="g29"
+       transform="matrix(1,0,0,0.98895287,-47.217327,-559.93745)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:1.04816"
+         id="rect12"
+         width="168.75"
+         height="23.4375"
+         x="344.01413"
+         y="-141.73746"
+         transform="rotate(90)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:1.10486"
+         id="rect13"
+         width="187.5"
+         height="23.4375"
+         x="-66.802559"
+         y="-383.97104"
+         transform="rotate(155)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.924389"
+         id="rect14"
+         width="131.25"
+         height="23.4375"
+         x="-349.08591"
+         y="-341.40991"
+         transform="rotate(-165)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.924389"
+         id="rect15"
+         width="131.25"
+         height="23.4375"
+         x="-359.642"
+         y="-380.80585"
+         transform="rotate(-165)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0.924389"
+         id="rect16"
+         width="131.25"
+         height="23.4375"
+         x="-370.19815"
+         y="-420.20178"
+         transform="rotate(-165)" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:225px;font-family:'Josefin Sans';-inkscape-font-specification:'Josefin Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.9375"
+       x="233.62718"
+       y="-70.578552"
+       id="text16"><tspan
+         id="tspan16"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:225px;font-family:'Josefin Sans';-inkscape-font-specification:'Josefin Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.9375"
+         x="233.62718"
+         y="-70.578552">imiron</tspan></text>
+  </g>
+</svg>

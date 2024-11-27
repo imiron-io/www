@@ -1,10 +1,6 @@
 ---
-title: 接触
-featured_image: ''
-omit_header_text: true
-description: Contact us
-type: page
-menu: main
+title: "Contact"
+weight: 100
 ---
 
 
