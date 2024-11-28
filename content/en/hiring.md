@@ -1,10 +1,7 @@
 ---
-date: '2024-11-11T14:08:10+09:00'
-type: 'page'
-title: 'Hiring'
+title: "Hiring"
 omit_header_text: true
-featured_image: ''
-menu: main
+menu: "main"
 weight: -100
 ---
 

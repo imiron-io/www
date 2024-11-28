@@ -1,6 +1,7 @@
 ---
 title: "私たちについて"
 weight: 99
+menu: "main"
 ---
 
 ```Haskel
@@ -14,7 +15,7 @@ weight: 99
 
 ### 取締役・創業者 - Ichiro Hasuo, Ph.D.
 
-{{< figure src="/images/ichiro.jpg" title="Screenshot" class="center" width="240" >}}
+{{< figure src="/images/ichiro.jpg" class="center" width="240" >}}
 
 蓮 尾 一 郎　博士(学術)
 
@@ -22,7 +23,7 @@ weight: 99
 
 ### 代表取締役・CEO - Masakazu Adachi, Ph.D.
 
-{{< figure src="/images/masa.jpg" title="Screenshot" class="center" width="240" >}}
+{{< figure src="/images/masa.jpg" class="center" width="240" >}}
 
 足 立 正 和　博士(工学)
 
@@ -30,7 +31,7 @@ weight: 99
 
 ### 取締役・CTO - James Haydon, Ph.D.
 
-{{< figure src="/images/james.jpg" title="Screenshot" class="center" width="240" >}}
+{{< figure src="/images/james.jpg" class="center" width="240" >}}
 
 ジェームズ ヘイドン　博士(学術)
 

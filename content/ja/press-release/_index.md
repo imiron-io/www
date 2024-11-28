@@ -1,4 +1,4 @@
 ---
-title: "リリース"
+title: "ニュース"
 weight: 1
 ---
