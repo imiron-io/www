@@ -1,10 +1,9 @@
 ---
-type: "page"
-title: 'Career'
-omit_header_text: true
-featured_image: ''
+title: "CAREER"
 menu: "main"
 weight: -100
+featured_image: "/images/jump.jpg"
+omit_header_text: true
 ---
 
 At Imiron, we're on a mission to push the boundaries of technology in a critical domain. We're a young startup looking for exceptional individuals to join us on this exciting journey. You'll be working with Dr. James Haydon and Prof. Ichiro Hasuo, with a chance to shape the early design of the product.

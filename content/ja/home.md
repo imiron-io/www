@@ -1,6 +1,5 @@
 ---
-title: "ホーム"
-omit_header_text: true
+title: "HOME"
 menu: "main"
 weight: -200
 URL: "/ja"

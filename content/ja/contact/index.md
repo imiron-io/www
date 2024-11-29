@@ -1,9 +1,11 @@
 ---
-title: "会社概要"
+title: "CONTACT"
+menu: "main"
 weight: 100
-# featured_image: ''
-# omit_header_text: true
+featured_image: ""
+omit_header_text: true
 ---
+
 ##### 会社名
 株式会社イミロン
 
