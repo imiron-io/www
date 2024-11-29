@@ -1,7 +1,5 @@
 ---
-title: "CAREER"
-menu: "main"
-weight: -100
+title: "We're hiring!"
 featured_image: "/images/jump.jpg"
 omit_header_text: true
 ---

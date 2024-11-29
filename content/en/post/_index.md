@@ -1,4 +1,7 @@
 ---
-title: "Blog"
-weight: 10
+title: "Posts"
+featured_image: ""
+omit_header_text: true
+build:
+  list: local
 ---
