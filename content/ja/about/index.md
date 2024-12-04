@@ -6,6 +6,14 @@ build:
   list: local
 ---
 
+<div style="background-color: #D5D5D5; padding: 5px 10px">
+<h4> いみ－ろん【意味論】</h4>
+<ol>
+<li>計算機科学 (= コンピュータの数学) の一分野。狭義には論理計算式の「意味」や「解釈」についての理論をいう。
+<li>ふるまいを数学のコトバでモデリングして、その本質の理解をめざす学問、および技術。
+</ol>
+</div>
+
 #### 取締役・創業者
 ### 蓮 尾 一 郎　博士(学術)
 {{< figure src="/images/ichiro.jpg" class="center" width="160" >}}
