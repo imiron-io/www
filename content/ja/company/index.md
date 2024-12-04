@@ -1,5 +1,5 @@
 ---
-title: "CONTACT"
+title: "COMPANY"
 featured_image: ""
 omit_header_text: true
 build:
