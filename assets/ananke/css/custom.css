@@ -1,0 +1,42 @@
+.athelas {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.serif {
+    font-family: sans-serif;
+}
+
+.f4 {
+    font-size: 1rem;
+}
+
+.f4-ns {
+    font-size: 0.9rem;
+}
+
+.f2 {
+    font-size: 3rem;
+}
+
+.f1 {
+    font-size: 2rem;
+}
+
+.f-5-l, .f-subheadline-l {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+main.pb7 {
+    padding-bottom: 5em;
+}
+
+li.pr3 {
+    padding-right: 0.8em;
+}
+
+.measure-wide {
+    max-width: 100%;
+    width: 70%;
+}

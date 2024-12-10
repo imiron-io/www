@@ -21,10 +21,10 @@ unsafe= true
   languageCode = "en-US"
   # languageDirection = 'rtl' for Right-To-Left languages
   [languages.en.menus]
-      [[languages.en.menus.main]]
-        name = "HOME"
-        pageRef = '/'
-        weight = -500
+#      [[languages.en.menus.main]]
+#        name = "HOME"
+#        pageRef = '/'
+#        weight = -500
       [[languages.en.menus.main]]
         name = "CAREER"
         pageRef = '/career'
@@ -51,10 +51,10 @@ unsafe= true
   languageName = "JP"
   languageCode = "ja-JP"
   [languages.ja.menus]
-      [[languages.ja.menus.main]]
-        name = "HOME"
-        pageRef = '/'
-        weight = -500
+#      [[languages.ja.menus.main]]
+#        name = "HOME"
+#        pageRef = '/'
+#        weight = -500
       [[languages.ja.menus.main]]
         name = "CAREER"
         pageRef = '/career'
@@ -82,7 +82,8 @@ priority = 0.5
 filename = "sitemap.xml"
 
 [params]
-text_color = ""
+body_classes = "avenir bg-light-gray"
+text_color = "dark-gray"
 author = "Imiron Co., Ltd."
 omit_header_text = true
 favicon = "images/imiron_favicon.png"
@@ -95,7 +96,7 @@ date_format = ":date_full"
 # choose fitting and alignment styles for the featured image using Tachyons classes such as "cover|contain" for fitting and "bg-top|bg-center|bg-bottom" for alignment, or add any other class space-separated to customize further
 featured_image_class = "cover bg-bottom"
 # choose a color dimming class for the page or site header from any on this page: https://tachyons.io/docs/themes/skins/, preface it with "bg-" and add the value such as "-X0" where X is in [1,9]
-# cover_dimming_class = "bg-black-10"
+cover_dimming_class = "bg-black-30"
 
 
 # [[params.ananke_socials]]
