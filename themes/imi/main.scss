@@ -16,6 +16,10 @@ $blue: #1572a1;
   font-family: "IBM Plex Mono", monospace;
 }
 
+h1.title {
+  font-size: 3rem;
+  font-weight: 200;
+}
 .subtitle {
   font-size: .9em; @include monospace;
 }
@@ -27,7 +31,7 @@ $blue: #1572a1;
     border-bottom: 1px solid red;
   }
   a[aria-current="page"] {
-    color: red;
+    border-bottom: 1px solid red;
   }
 }
 
@@ -48,18 +52,21 @@ body main.section div.container.container-main-content {
   }
 
   .name {
-    margin-bottom: 0;
+    margin-bottom: .1em;
+    letter-spacing: .04em;
   }
 
   .position {
     @include monospace;
-    font-size: .8em;
+    font-size: .9em;
+    padding-bottom: .7rem;
+    opacity: .8;
   }
   .photo {
     width: 100%;
 
     @media screen and (min-width: 769px) {
-      width: 30%;
+      width: 20%;
     }
   }
 
@@ -67,7 +74,7 @@ body main.section div.container.container-main-content {
     width: 100%;
 
     @media screen and (min-width: 769px) {
-      width: 60%;
+      width: 80%;
       padding-left: 1em;
     }
   }

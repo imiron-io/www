@@ -1,5 +1,5 @@
 ---
-title: "ABOUT US"
+title: "About"
 featured_image: ""
 omit_header_text: true
 build:
@@ -32,7 +32,7 @@ Imiron (意味論) means _semantics_ in Japanese:
   </div>
   <div class="details">
     <h3 class="name">Masakazu Adachi</h2>
-    <p class="position">CEO/Co-Founder</p>
+    <p class="position">CEO / Founder</p>
     <p>
     After working at Toyota Central R&D Labs, Inc. and at an engineering consulting company, he joined DENSO Corporation in 2017. Since 2020, he has been seconded to DENSO Automotive Deutschland GmbH, where he had lead the European R&D unit for advanced automotive software technologies. He has been responsible for various technical fields including autonomous driving, basic software, in-vehicle/wireless communication, and security. Ph.D., Osaka University, Japan.
     </p>
@@ -45,7 +45,7 @@ Imiron (意味論) means _semantics_ in Japanese:
   </div>
   <div class="details">
     <h3 class="name">James Haydon</h2>
-    <p class="position">CTO/Co-Founder</p>
+    <p class="position">CTO / Founder</p>
     <p>
     After serving as a tech lead at several startups in the UK, Germany, and other countries, he became the Development Team Chief for the JST ERATO Hasuo Metamathematics for Systems Design Project at the National Institute of Informatics. He has deep expertise in software development, particularly in functional programming. Ph.D., University of Oxford, UK.
     </p>

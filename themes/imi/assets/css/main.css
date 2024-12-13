@@ -21548,6 +21548,11 @@ has-background-danger.is-hoverable:active {
   pointer-events: all !important;
 }
 
+h1.title {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
 .subtitle {
   font-size: 0.9em;
   font-family: "IBM Plex Mono", monospace;
@@ -21558,6 +21563,9 @@ has-background-danger.is-hoverable:active {
   font-family: "IBM Plex Mono", monospace;
 }
 .navbar-main .page-translate-link {
+  border-bottom: 1px solid red;
+}
+.navbar-main a[aria-current=page] {
   border-bottom: 1px solid red;
 }
 
@@ -21578,18 +21586,21 @@ body main.section div.container.container-main-content {
   }
 }
 .team-member .name {
-  margin-bottom: 0;
+  margin-bottom: 0.1em;
+  letter-spacing: 0.04em;
 }
 .team-member .position {
   font-family: "IBM Plex Mono", monospace;
-  font-size: 0.8em;
+  font-size: 0.9em;
+  padding-bottom: 0.7rem;
+  opacity: 0.8;
 }
 .team-member .photo {
   width: 100%;
 }
 @media screen and (min-width: 769px) {
   .team-member .photo {
-    width: 30%;
+    width: 20%;
   }
 }
 .team-member .details {
@@ -21597,7 +21608,7 @@ body main.section div.container.container-main-content {
 }
 @media screen and (min-width: 769px) {
   .team-member .details {
-    width: 60%;
+    width: 80%;
     padding-left: 1em;
   }
 }
