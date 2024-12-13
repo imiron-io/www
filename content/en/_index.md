@@ -20,7 +20,7 @@ featured_image: '/images/city.png'
 <section class="pv3 mw8 center br3 ba b--gray bg-lightest-blue" style=" background-image:url(../images/haskel_meetup.png)">
     <div class="dt-ns dt--fixed-ns w-100">
       <div class="pa3 pa4-ns dtc-ns v-mid">
-        <div>
+        <div class="box">
           <h2 class="fw6 lightest-blue mt0 mb3">Haskell Meet-up </h2>
           <p class="white measure lh-copy mv0">
             Promo text here.
