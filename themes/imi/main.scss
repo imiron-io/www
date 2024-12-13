@@ -1,6 +1,10 @@
 // Set your brand colors
 $blue: #1572a1;
 
+@mixin monospace {
+  font-family: "IBM Plex Mono", monospace;
+}
+
 // Path to Bulma's sass folder
 @use "bulma/sass" with (
   $family-primary: '"IBM Plex Sans", "IBM Plex Sans JP", sans-serif',
@@ -17,7 +21,7 @@ $blue: #1572a1;
 .navbar-main {
   border-bottom: 1px solid #4f100b;
   .page-translate-link {
-    font-family: monospace;
+    @include monospace;
   }
 }
 
@@ -42,7 +46,7 @@ body main.section div.container.container-main-content {
   }
 
   .position {
-    font-family: "IBM Plex Mono", monospace;
+    @include monospace;
     font-size: .8em;
   }
   .photo {
