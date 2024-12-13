@@ -1,20 +1,50 @@
 {{ define "main" }}
   <div class="content">{{ .Content }}</div>
-  {{ range site.RegularPages }}
-    <h2 class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    <div class="date">{{ .Date.Format "2006-01-02" }}</div>
-    {{ with .Params.author }}
-    <div class="author">Author: {{ . }}</div>
+  <div class="home-items">
+    {{ range site.RegularPages }}
+      <div class="home-item">
+
+        <div class="field">
+          <div class="field-name">title</div>
+          <div class="field-item">
+            <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="field-name">date</div>
+          <div class="field-item">
+            <div class="date">{{ .Date.Format "2006-01-02" }}</div>
+          </div>
+        </div>
+
+        {{ with .Params.author }}
+          <div class="field">
+            <div class="field-name">author</div>
+            <div class="field-item">
+              <div class="author">{{ . }}</div>
+            </div>
+          </div>
+        {{ end }}
+
+        <div class="field">
+          <div class="field-name">summary</div>
+          <div class="field-item">
+            <div class="content">{{ .Summary }}</div>
+          </div>
+        </div>
+
+        {{ with .Params.tags }}
+          <div class="field">
+            <div class="field-name">tags</div>
+            <div class="field-item">
+              {{ range . }}
+                <span class="tag">{{ . }}</span>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+      </div>
     {{ end }}
-    <div class="content">{{ .Summary }}</div>
-    {{ with .Params.tags }}
-    <div class="tags">
-      Tags:
-      {{ range . }}
-        <span class="tag">{{ . }}</span>
-      {{ end }}
-    </div>
-    {{ end }}
-    <pre>{{ printf "%s" .Params | jsonify }}</pre>
-  {{ end }}
+  </div>
 {{ end }}
