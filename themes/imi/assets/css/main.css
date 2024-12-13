@@ -2906,8 +2906,8 @@ th:not([align]) {
   --bulma-body-family: var(--bulma-family-primary);
   --bulma-body-overflow-x: hidden;
   --bulma-body-overflow-y: scroll;
-  --bulma-body-color: var(--bulma-text);
-  --bulma-body-font-size: 1em;
+  --bulma-body-color: #f5f5f5;
+  --bulma-body-font-size: 14px;
   --bulma-body-weight: var(--bulma-weight-normal);
   --bulma-body-line-height: 1.5;
   --bulma-code-family: var(--bulma-family-code);
@@ -21550,23 +21550,56 @@ has-background-danger.is-hoverable:active {
 
 .subtitle {
   font-size: 0.9em;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .navbar-main {
   border-bottom: 1px solid #4f100b;
+  font-family: "IBM Plex Mono", monospace;
 }
-.navbar-main .navbar-item, .navbar-main .navbar-link {
-  color: white;
-  font-size: 0.9rem;
+.navbar-main .page-translate-link {
+  border-bottom: 1px solid red;
 }
 
 body main.section div.container.container-main-content {
   max-width: 960px !important;
 }
 
-.member-position {
+.team-member {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+@media screen and (min-width: 769px) {
+  .team-member {
+    flex-direction: row;
+  }
+}
+.team-member .name {
+  margin-bottom: 0;
+}
+.team-member .position {
   font-family: "IBM Plex Mono", monospace;
   font-size: 0.8em;
+}
+.team-member .photo {
+  width: 100%;
+}
+@media screen and (min-width: 769px) {
+  .team-member .photo {
+    width: 30%;
+  }
+}
+.team-member .details {
+  width: 100%;
+}
+@media screen and (min-width: 769px) {
+  .team-member .details {
+    width: 60%;
+    padding-left: 1em;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

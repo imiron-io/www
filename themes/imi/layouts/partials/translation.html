@@ -1,9 +1,5 @@
 {{ if .IsTranslated }}
-<ul>
     {{ range .Translations }}
-    <li.pr3>
-        <a href="{{ .RelPermalink }}">{{ .Lang }}</a>
-    </li>
+        <a class="navbar-item page-translate-link" href="{{ .RelPermalink }}">{{ .Lang }}</a>
     {{ end}}
-</ul>
 {{ end }}
