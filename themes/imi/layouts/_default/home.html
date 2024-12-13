@@ -1,7 +1,8 @@
 {{ define "main" }}
-  {{ .Content }}
+  <div class="content">{{ .Content }}</div>
   {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
+    <h2 class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <div class="content">{{ .Summary }}</div>
+    <pre>{{ printf "%s" .Params | jsonify }}</pre>
   {{ end }}
 {{ end }}
