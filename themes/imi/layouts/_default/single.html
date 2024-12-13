@@ -1,11 +1,13 @@
 {{ define "main" }}
   <h1 class="title">{{ .Title }}</h1>
 
-  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format ":date_long" }}
-  <div class="subtitle">
-    <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-  </div>
+  {{ if .Date }}
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format ":date_long" }}
+    <div class="subtitle">
+      <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+    </div>
+  {{ end }}
 
   <div class="content">
     {{ .Content }}
