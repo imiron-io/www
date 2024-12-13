@@ -1,5 +1,8 @@
 {{ define "main" }}
-  <div class="content">{{ .Content }}</div>
+  <div class="content">
+    {{ .Content }}
+    <div class="page-count">Number of posts: {{ len site.RegularPages }}</div>
+  </div>
   <div class="home-items">
     {{ range site.RegularPages }}
       <div class="home-item">
