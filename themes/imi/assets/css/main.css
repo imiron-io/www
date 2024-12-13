@@ -2907,7 +2907,7 @@ th:not([align]) {
   --bulma-body-overflow-x: hidden;
   --bulma-body-overflow-y: scroll;
   --bulma-body-color: #f5f5f5;
-  --bulma-body-font-size: 14px;
+  --bulma-body-font-size: 15px;
   --bulma-body-weight: var(--bulma-weight-normal);
   --bulma-body-line-height: 1.5;
   --bulma-code-family: var(--bulma-family-code);
@@ -21549,8 +21549,23 @@ has-background-danger.is-hoverable:active {
 }
 
 h1.title {
-  font-size: 3.5rem;
-  font-weight: 100;
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+h1.title::after {
+  content: "/";
+  color: red;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.content h2 {
+  font-family: "IBM Plex Mono", monospace;
+  padding-left: 0.25em;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .subtitle {
@@ -21570,12 +21585,14 @@ h1.title {
 }
 
 body main.section div.container.container-main-content {
-  max-width: 960px !important;
+  max-width: 860px !important;
 }
 
 .team-member {
+  border: 1px dashed rgba(255, 255, 255, 0.12);
+  padding: 1.5rem;
   margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -21611,6 +21628,66 @@ body main.section div.container.container-main-content {
     width: 80%;
     padding-left: 1em;
   }
+}
+
+.feed-count {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.home-items .home-item {
+  margin-bottom: 1rem;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  padding-bottom: 1rem;
+}
+.home-items .home-item .fields {
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.home-items .home-item .fields .field {
+  width: 100%;
+}
+.home-items .home-item .fields .field.field-small {
+  width: auto;
+}
+.home-items .home-item .fields .field .field-name {
+  opacity: 0.5;
+  font-size: 0.7em;
+  font-family: "IBM Plex Mono", monospace;
+}
+.home-items .home-item .fields .field .field-name::before {
+  content: "/";
+}
+@media screen and (max-width: 768px) {
+  .home-items .home-item .fields {
+    flex-direction: column;
+  }
+  .home-items .home-item .fields .field.field-small {
+    width: 100%;
+  }
+}
+
+.background-effect {
+  position: relative;
+  background-size: 20px 20px;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.07) 1px, rgba(0, 0, 0, 0) 1px);
+}
+
+.background-effect::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Noise overlay */
+  background-image: url("/images/noise.webp");
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  /* Subtle effect */
+  opacity: 0.05;
+  pointer-events: none; /* Prevent interaction */
 }
 
 /*# sourceMappingURL=main.css.map */

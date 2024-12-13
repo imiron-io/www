@@ -1,52 +1,62 @@
 {{ define "main" }}
   <div class="content">
     {{ .Content }}
-    <div class="page-count">Number of posts: {{ len site.RegularPages }}</div>
   </div>
+  <h1 class="title">
+    Feed
+  </h1>
+  <div class="feed-count">Feed count: [{{ len site.RegularPages }}]</div>
   <div class="home-items">
     {{ range site.RegularPages }}
       <div class="home-item">
 
-        <div class="field">
-          <div class="field-name">title</div>
-          <div class="field-item">
-            <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        <div class="fields">
+          <div class="field">
+            <div class="field-name">title</div>
+            <div class="field-item">
+              <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+            </div>
           </div>
         </div>
 
-        <div class="field">
+
+        <div class="fields">
+          <div class="field field-small">
           <div class="field-name">date</div>
           <div class="field-item">
             <div class="date">{{ .Date.Format "2006-01-02" }}</div>
           </div>
         </div>
 
+        {{ with .Params.tags }}
+          <div class="field field-small">
+            <div class="field-name">tags</div>
+            <div class="field-item">
+              {{ range . }}
+              <span class="tag">{{ . }}</span>
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
+
         {{ with .Params.author }}
-          <div class="field">
+          <div class="field field-small">
             <div class="field-name">author</div>
             <div class="field-item">
               <div class="author">{{ . }}</div>
             </div>
           </div>
-        {{ end }}
-
-        <div class="field">
-          <div class="field-name">summary</div>
-          <div class="field-item">
-            <div class="content">{{ .Summary }}</div>
-          </div>
+          {{ end }}
         </div>
 
-        {{ with .Params.tags }}
+        <div class="fields">
           <div class="field">
-            <div class="field-name">tags</div>
+            <div class="field-name">summary</div>
             <div class="field-item">
-              {{ range . }}
-                <span class="tag">{{ . }}</span>
-              {{ end }}
+              <div class="content">{{ .Summary }}</div>
             </div>
           </div>
-        {{ end }}
+        </div>
       </div>
     {{ end }}
   </div>

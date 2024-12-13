@@ -101,8 +101,11 @@ body main.section div.container.container-main-content {
 }
 .home-items {
   .home-item {
-    margin-bottom: 1.4rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+    padding-bottom: 1rem;
     .fields {
+      margin-bottom: .5rem;
       display: flex;
       flex-wrap: wrap;
       gap: 1rem;

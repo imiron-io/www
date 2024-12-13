@@ -1,5 +1,5 @@
 ---
-title: "COMPANY"
+title: "Company"
 featured_image: ""
 omit_header_text: true
 build:
@@ -22,9 +22,10 @@ August 20, 2024
 ---
 
 ##### Officers
-Masakazu Adachi, Representative Director  
-Ichiro Hasuo, Director  
-James Haydon, Director
+
+- Masakazu Adachi, Representative Director
+- Ichiro Hasuo, Director
+- James Haydon, Director
 
 ---
 

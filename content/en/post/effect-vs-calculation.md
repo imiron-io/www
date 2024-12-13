@@ -2,7 +2,7 @@
 date = '2024-11-21T14:42:50+09:00'
 title = 'Pure Calculation vs Effects in Haskell: A Path to Clearer Code'
 author = "James Haydon"
-tags = ["Tech Blog"]
+tags = ["Tech Blog", "haskell"]
 featured_image = "/images/tech_blog.jpg"
 +++
 
