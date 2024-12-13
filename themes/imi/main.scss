@@ -26,6 +26,9 @@ $blue: #1572a1;
   .page-translate-link {
     border-bottom: 1px solid red;
   }
+  a[aria-current="page"] {
+    color: red;
+  }
 }
 
 body main.section div.container.container-main-content {
