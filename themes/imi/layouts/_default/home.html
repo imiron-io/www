@@ -2,6 +2,7 @@
   <div class="content">{{ .Content }}</div>
   {{ range site.RegularPages }}
     <h2 class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <div class="date">{{ .Date.Format "2006-01-02" }}</div>
     {{ with .Params.author }}
     <div class="author">Author: {{ . }}</div>
     {{ end }}
