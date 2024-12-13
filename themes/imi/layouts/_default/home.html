@@ -3,6 +3,14 @@
   {{ range site.RegularPages }}
     <h2 class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     <div class="content">{{ .Summary }}</div>
+    {{ with .Params.tags }}
+    <div class="tags">
+      Tags:
+      {{ range . }}
+        <span class="tag">{{ . }}</span>
+      {{ end }}
+    </div>
+    {{ end }}
     <pre>{{ printf "%s" .Params | jsonify }}</pre>
   {{ end }}
 {{ end }}
