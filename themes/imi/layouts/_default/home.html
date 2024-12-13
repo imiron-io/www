@@ -2,6 +2,9 @@
   <div class="content">{{ .Content }}</div>
   {{ range site.RegularPages }}
     <h2 class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ with .Params.author }}
+    <div class="author">Author: {{ . }}</div>
+    {{ end }}
     <div class="content">{{ .Summary }}</div>
     {{ with .Params.tags }}
     <div class="tags">
