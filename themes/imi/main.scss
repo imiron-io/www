@@ -103,7 +103,17 @@ body main.section div.container.container-main-content {
   .home-item {
     margin-bottom: 1.4rem;
     .fields {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    
       .field {
+        width: 100%;
+      
+        &.field-small {
+          width: auto;
+        }
+      
         .field-name {
           opacity: .5;
           font-size: .7em;
@@ -111,6 +121,14 @@ body main.section div.container.container-main-content {
           &::before {
             content: "/";
           }
+        }
+      }
+
+      // Stack vertically on small screens
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+        .field.field-small {
+          width: 100%;
         }
       }
     }
