@@ -4,12 +4,17 @@ description: ""
 featured_image: '/images/city.png'
 ---
 
-<div class="hero">
-  <h2>Haskell meetup</h2>
-  <p>Imiron is organising a Tokyo Haskell meetup.</p>
+A spin-off startup from one of the best research teams in Japan.
+
+<div class="highlights">
+  <div class="highlight">
+    <h2>Haskell meetup</h2>
+    <p>Imiron is organising a Tokyo Haskell meetup.</p>
+  </div>
+
+  <div class="highlight">
+    <h2>Join the team</h2>
+    <p>We're looking for great people</p>
+  </div>
 </div>
 
-<div class="hero">
-  <h2>Join the team</h2>
-  <p>We're looking for great people</p>
-</div>
