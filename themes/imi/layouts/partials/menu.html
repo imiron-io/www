@@ -13,7 +13,7 @@ Renders a menu for the given menu ID.
 {{- with index site.Menus $menuID }}
   <nav class="navbar navbar-main">
     <div class="navbar-brand">
-      <a class="navbar-item" href="/">
+      <a class="navbar-item" href="{{ "/" | relLangURL }}">
         <img src="/images/imiron_text_w_320.png" alt="Imiron"/>
       </a>
       {{ partial "translation.html" $page }}

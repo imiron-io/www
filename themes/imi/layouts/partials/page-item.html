@@ -1,0 +1,52 @@
+<div class="page-item">
+
+    <div class="fields">
+      <div class="field">
+        <div class="field-name">title</div>
+        <div class="field-item">
+          <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="fields">
+      {{ with .Date }}
+      <div class="field field-small">
+        <div class="field-name">date</div>
+        <div class="field-item">
+          <div class="date">{{ .Format "2006-01-02" }}</div>
+        </div>
+      </div>
+      {{ end }}
+
+      {{ with .Params.tags }}
+      <div class="field field-small">
+        <div class="field-name">tags</div>
+        <div class="field-item">
+          {{ range . }}
+          <span class="tag">{{ . }}</span>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+    {{ with .Params.author }}
+      <div class="field field-small">
+        <div class="field-name">author</div>
+        <div class="field-item">
+          <div class="author">{{ . }}</div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="fields">
+      <div class="field">
+        <div class="field-name">summary</div>
+        <div class="field-item">
+            <div class="content">{{ .Summary }}</div>
+        </div>
+      </div>
+    </div>
+
+</div>

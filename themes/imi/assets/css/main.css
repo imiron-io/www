@@ -21561,11 +21561,15 @@ h1.title::after {
 
 .content h2 {
   font-family: "IBM Plex Mono", monospace;
-  padding-left: 0.25em;
+  font-size: 1.5em;
+  line-height: 1;
+  padding: 0.3em 0.4em 0.23em 0.31em;
+  border: 1px solid rgb(120, 0, 0);
   background-color: rgb(225, 225, 225);
   color: black;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  box-shadow: inset 0px 0px 4px 1px rgba(40, 0, 0, 0.5);
 }
 
 .subtitle {
@@ -21638,36 +21642,38 @@ body main.section div.container.container-main-content {
   font-family: "IBM Plex Mono", monospace;
 }
 
-.home-items .home-item {
+.page-items .page-item {
   margin-bottom: 1rem;
   border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
   padding-bottom: 1rem;
 }
-.home-items .home-item .fields {
+
+.fields {
   margin-bottom: 0.5rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
 }
-.home-items .home-item .fields .field {
+.fields .field {
   width: 100%;
+  margin-bottom: 0;
 }
-.home-items .home-item .fields .field.field-small {
+.fields .field.field-small {
   width: auto;
 }
-.home-items .home-item .fields .field .field-name {
+.fields .field .field-name {
   opacity: 0.5;
   font-size: 0.7em;
   font-family: "IBM Plex Mono", monospace;
 }
-.home-items .home-item .fields .field .field-name::before {
+.fields .field .field-name::before {
   content: "/";
 }
 @media screen and (max-width: 768px) {
-  .home-items .home-item .fields {
+  .fields {
     flex-direction: column;
   }
-  .home-items .home-item .fields .field.field-small {
+  .fields .field.field-small {
     width: 100%;
   }
 }
@@ -21695,9 +21701,13 @@ body main.section div.container.container-main-content {
 }
 
 .highlights {
+  margin: 3rem 0;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
+}
+.highlights h2 {
+  text-align: center;
 }
 @media screen and (min-width: 769px) {
   .highlights {
@@ -21707,12 +21717,35 @@ body main.section div.container.container-main-content {
 .highlights .highlight {
   width: 100%;
   border: 1px dashed grey;
+  box-shadow: 0px 0px 10px 2px rgba(200, 0, 0, 0.45);
   padding: 1em;
 }
 @media screen and (min-width: 769px) {
   .highlights .highlight {
     width: 50%;
   }
+}
+.highlights .highlight .highlight-actions {
+  text-align: center;
+}
+.highlights .highlight .highlight-actions .button {
+  display: inline-block;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 3.7em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 1.2em 0;
+  max-width: 660px;
+  margin: 1.3em auto;
+}
+
+.pitch {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: justify;
 }
 
 /*# sourceMappingURL=main.css.map */
