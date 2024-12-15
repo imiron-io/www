@@ -21593,6 +21593,8 @@ body main.section div.container.container-main-content {
 }
 
 .team-member {
+  background-color: rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 0px 20px 1px rgba(200, 0, 0, 0.28);
   border: 1px dashed rgba(255, 255, 255, 0.12);
   padding: 1.5rem;
   margin-top: 2rem;
@@ -21681,7 +21683,7 @@ body main.section div.container.container-main-content {
 .background-effect {
   position: relative;
   background-size: 20px 20px;
-  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.08) 1px, rgba(0, 0, 0, 0) 1px);
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, rgb(0, 0, 0) 1px);
 }
 
 .background-effect::before {
@@ -21692,11 +21694,11 @@ body main.section div.container.container-main-content {
   right: 0;
   bottom: 0;
   /* Noise overlay */
-  background-image: url("/images/noise.webp");
+  background-image: url("/images/noise4.jpg");
   background-repeat: repeat;
-  background-size: 200px 200px;
+  background-size: 320px 240px;
   /* Subtle effect */
-  opacity: 0.05;
+  opacity: 0.06;
   pointer-events: none; /* Prevent interaction */
 }
 
@@ -21715,6 +21717,7 @@ body main.section div.container.container-main-content {
   }
 }
 .highlights .highlight {
+  background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
   border: 1px dashed grey;
   box-shadow: 0px 0px 10px 2px rgba(200, 0, 0, 0.45);
