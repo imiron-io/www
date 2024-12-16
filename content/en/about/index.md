@@ -1,7 +1,5 @@
 ---
 title: "About"
-featured_image: ""
-omit_header_text: true
 build:
   list: local
 ---
@@ -11,6 +9,7 @@ Imiron (意味論) means _semantics_ in Japanese:
   <li>A branch of computer science. In a narrow sense, it refers to the theory of meaning and interpretation of logical formulae.
   <li>The practice and technology about modelling behaviour in mathematical terms with the aim of understanding its essence.
 </ol>
+
 
 ## Team
 

@@ -1,7 +1,5 @@
 ---
 title: "We're hiring"
-featured_image: "/images/jump.jpg"
-omit_header_text: true
 summary: We're growing fast. We've got lots of challenging engineering work to do. If you are interested in joining Imiron, see our hiring page.
 ---
 

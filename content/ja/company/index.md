@@ -1,7 +1,5 @@
 ---
-title: "COMPANY"
-featured_image: ""
-omit_header_text: true
+title: "Company"
 build:
   list: local
 ---

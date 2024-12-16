@@ -1,10 +1,9 @@
 ---
-title: "We're hiring!"
-featured_image: "/images/jump.jpg"
-omit_header_text: true
+title: "We're hiring"
+summary: We're growing fast. We've got lots of challenging engineering work to do. If you are interested in joining Imiron, see our hiring page.
 ---
 
-At Imiron, we're on a mission to push the boundaries of technology in a critical domain. We're a young startup looking for exceptional individuals to join us on this exciting journey. You'll be working with Dr. James Haydon and Prof. Ichiro Hasuo, with a chance to shape the early design of the product.
+At Imiron, we're on a mission to push the boundaries of technology in a critical domain. We're a young startup looking for exceptional individuals to join us. You'll be working with Dr. James Haydon and Prof. Ichiro Hasuo, with a chance to shape the early design of the product.
 
 ## Who We're Looking For
 

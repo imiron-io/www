@@ -1,15 +1,14 @@
 ---
 title: "Safety via the power of logic"
 description: ""
-featured_image: '/images/city.png'
 ---
 
 <div class="slogan">
-Guaranteed Reliabilty for Data-Driven Systems
+A formal and logic-based engineering platform for safe, reliable and accountable mission critical systems
 </div>
 
 <p class="pitch">
-Founded by leading researchers from ERATO MMSD, a renowned research group in theoretical computer science, we are a technology startup dedicated to enhancing the safety and reliability of complex systems. Drawing on a foundation of world-class research in temporal logic and formal verification, we develop innovative tools and techniques for specifying and verifying system behaviour. Our expertise enabled us to address the critical challenge of ensuring safety and reliability in systems with unpredictable or opaque AI components.
+Founded by leading researchers from ERATO MMSD, a renowned research group in theoretical computer science, we are a technology startup dedicated to enhancing the safety and reliability of complex systems. Drawing on a foundation of world-class research in temporal logic and formal verification, we develop innovative tools and techniques for specifying and verifying system behaviour. Our expertise enabled us to address the critical challenge of ensuring safety, reliability and accountability in systems with unpredictable or opaque AI components.
 </p>
 
 <div class="highlights">

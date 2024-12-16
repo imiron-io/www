@@ -3,7 +3,6 @@ date = '2024-11-21T14:42:50+09:00'
 title = 'Pure Calculation vs Effects in Haskell: A Path to Clearer Code'
 author = "James Haydon"
 tags = ["Tech Blog"]
-featured_image = "/images/tech_blog.jpg"
 +++
 
 We often hear that we should "strive to keep our functions pure" because they're easier to test, referentially transparent, and easier to reason about. Indeed sometimes pure functional programming can acheive the same thing as imperative code with lots of mutation. But this advice can sometimes feel non-actionable, if the whole point of my code is to run some effects, like print some output for the user, then I can't _not_ do that. But there is still something to do, that is more subtle, which is to try to keep effectful and pure code kept separate to some extent. When talking about high-level code organisation, this is sometimes referred to as _"pure core, imperative shell"_. Probably because of the fact that sometimes it _is_ possible to completely banish effects, for quite a while I thought of this as _"keep effects out of pure functions"_. But this isn't actually very actionable, and (in Haskell at least) easily checked by the compiler. What I've found much more helpful, especially when coding those "imperative shell" parts of a codebase, is to instead _"keep pure code out of effectful functions"_.
