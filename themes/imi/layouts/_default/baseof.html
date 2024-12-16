@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}" data-theme="dark" class="background-effect">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body class="huZEEL">
+    <header>
+      {{ partial "header.html" . }}
+    </header>
+    <main class="section">
+      <div class="container container-main-content">
+        {{ block "main" . }}{{ end }}
+      </div>
+    </main>
+    <footer class="footer">
+      {{ partial "footer.html" . }}
+    </footer>
+</body>
+</html>

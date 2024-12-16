@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <div class="content">
+    {{ .Content }}
+  </div>
+  <h1 class="title">Feed</h1>
+  <div class="page-items">
+    {{ range site.RegularPages }}
+      {{ partial "page-item.html" . }}
+    {{ end }}
+  </div>
+{{ end }}

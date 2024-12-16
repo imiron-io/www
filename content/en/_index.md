@@ -4,31 +4,43 @@ description: ""
 featured_image: '/images/city.png'
 ---
 
-<!-- <section class="mw8 center br3 hidden bg-light-yellow ba b--black-10 mb4">
-  <h1 class="f4 bg-yellow br3 br--top mv0 pv2 ph3">We're hiring</h1>
-  <div class="pa4 bt b--black-10">
-    <p class="f6 f5-ns lh-copy mv0">
-      At Imiron, we’re on a mission to push the boundaries of technology in a critical domain. We’re a young startup looking for exceptional individuals to join us on this exciting journey.
-    </p>
-    <div class="ph3">
-      <a class="f4 link dim w-30-ns br-pill ph3 pv2 mt3 dib dark-gray bg-yellow" href="/career">CHECK</a>
+<div class="slogan">
+Guaranteed Reliabilty for Data-Driven Systems
+</div>
+
+<p class="pitch">
+Founded by leading researchers from ERATO MMSD, a renowned research group in theoretical computer science, we are a technology startup dedicated to enhancing the safety and reliability of complex systems. Drawing on a foundation of world-class research in temporal logic and formal verification, we develop innovative tools and techniques for specifying and verifying system behaviour. Our expertise enabled us to address the critical challenge of ensuring safety and reliability in systems with unpredictable or opaque AI components.
+</p>
+
+<div class="highlights">
+
+  <div class="highlight">
+    <h2>Join the team</h2>
+    <p>We're looking for great people to join us. See our hiring page and register your interest.</p>
+    <div class="highlight-actions">
+      <a class="button" href="career">Hiring</a>
+      <button class="button">Apply</button>
     </div>
   </div>
-</section> -->
-
-
-<section class="pv3 mw8 center br3 ba b--gray bg-lightest-blue" style=" background-image:url(../images/haskel_meetup.png)">
-    <div class="dt-ns dt--fixed-ns w-100">
-      <div class="pa3 pa4-ns dtc-ns v-mid">
-        <div>
-          <h2 class="fw6 lightest-blue mt0 mb3">Haskell Meet-up </h2>
-          <p class="white measure lh-copy mv0">
-            Promo text here.
-          </p>
-        </div>
+  
+  <div class="highlight">
+    <h2>Haskell meetup</h2>
+    <p>Imiron is hosting a <code>Haskell</code> meetup in Tokyo.</p>
+    <div class="fields">
+      <div class="field field-small">
+        <div class="field-name">date</div>
+        <div class="field-item">2024-02-02</div>
       </div>
-      <div class="pa3 pa4-ns dtc-ns v-mid">
-        <a href="#" class="no-underline f6 tc db w-100 pv3 bg-animate bg-blue hover-bg-dark-blue white br2">Sign up for free</a>
+      <div class="field field-small">
+        <div class="field-name">location</div>
+        <div class="field-item">Akihabara</div>
+      </div>
+      <div class="field field-small">
+        <div class="field-name">registration</div>
+        <div class="field-item"><a href="todo.com">meetup.com</a></div>
       </div>
     </div>
-</section>
+  </div>
+  
+</div>
+

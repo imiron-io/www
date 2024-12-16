@@ -1,9 +1,9 @@
 title = "Imiron"
 baseURL = "https://imiron-io.github.io/"
 languageCode = "ja-JP"
-theme = "ananke"
+theme = "imi"
 
-DefaultContentLanguage = "ja"
+defaultContentLanguage = "ja"
 SectionPagesMenu = "main"
 pagination.pagerSize = 10
 # googleAnalytics = "" # TODO
@@ -26,23 +26,23 @@ unsafe= true
 #        pageRef = '/'
 #        weight = -500
       [[languages.en.menus.main]]
-        name = "CAREER"
+        name = "Career"
         pageRef = '/career'
         weight = -400
       [[languages.en.menus.main]]
-        name = "NEWS"
+        name = "News"
         pageRef = '/tags/press-release'
         weight = 200
       [[languages.en.menus.main]]
-        name = "BLOG"
+        name = "Blog"
         pageRef = '/tags/tech-blog'
         weight = 300
       [[languages.en.menus.main]]
-        name = "ABOUT"
+        name = "About"
         pageRef = '/about'
         weight = 400
       [[languages.en.menus.main]]
-        name = "COMPANY"
+        name = "Company"
         pageRef = '/company'
         weight = 500
   [languages.ja]
@@ -56,23 +56,23 @@ unsafe= true
 #        pageRef = '/'
 #        weight = -500
       [[languages.ja.menus.main]]
-        name = "CAREER"
+        name = "Career"
         pageRef = '/career'
         weight = -400
       [[languages.ja.menus.main]]
-        name = "NEWS"
+        name = "News"
         pageRef = '/tags/press-release'
         weight = 200
       [[languages.ja.menus.main]]
-        name = "BLOG"
+        name = "Blog"
         pageRef = '/tags/tech-blog'
         weight = 300
       [[languages.ja.menus.main]]
-        name = "ABOUT"
+        name = "About"
         pageRef = '/about'
         weight = 400
       [[languages.ja.menus.main]]
-        name = "COMPANY"
+        name = "Company"
         pageRef = '/company'
         weight = 500
 

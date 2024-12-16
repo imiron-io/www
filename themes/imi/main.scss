@@ -1,0 +1,226 @@
+// Set your brand colors
+$blue: #1572a1;
+
+// Path to Bulma's sass folder
+@use "bulma/sass" with (
+  $family-primary: '"IBM Plex Sans", "IBM Plex Sans JP", sans-serif',
+  $body-font-size: 15px,
+  $body-color: #f5f5f5,
+  $primary: $blue,
+  $link: $blue
+);
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans+JP:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@mixin monospace {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+h1.title {
+  font-size: 4rem;
+  font-weight: 200;
+}
+h1.title::after {
+  content: '/';
+  color: red;
+  @include monospace;
+}
+.content h2 {
+  @include monospace;
+  font-size: 1.5em;
+  line-height: 1;
+  padding: .3em .4em .23em .31em;
+  border: 1px solid rgb(120, 0, 0);
+  background-color: rgb(225, 225, 225);
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  box-shadow: inset 0px 0px 4px 1px rgba(40,0,0,0.5);
+}
+.subtitle {
+  font-size: .9em;
+  @include monospace;
+}
+
+.navbar-main {
+  border-bottom: 1px solid #4f100b;
+  @include monospace;
+  .page-translate-link {
+    border-bottom: 1px solid red;
+  }
+  a[aria-current="page"] {
+    border-bottom: 1px solid red;
+  }
+}
+
+body main.section div.container.container-main-content {
+  max-width: 860px !important;
+}
+
+.team-member {
+  background-color: rgba(0,0,0,0.36);
+  box-shadow: 0px 0px 20px 1px rgba(200,0,0,0.28);
+  border: 1px dashed rgba(255, 255, 255, 0.12);
+  padding: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+  // Switch to row layout on wider screens
+  @media screen and (min-width: 769px) {
+    flex-direction: row;
+  }
+
+  .name {
+    margin-bottom: .1em;
+    letter-spacing: .04em;
+  }
+
+  .position {
+    @include monospace;
+    font-size: .9em;
+    padding-bottom: .7rem;
+    opacity: .8;
+  }
+  .photo {
+    width: 100%;
+
+    @media screen and (min-width: 769px) {
+      width: 20%;
+    }
+    img {
+      border: 1px solid rgba(255, 199, 199, 0.4);
+      box-shadow: 0px 0px 10px 2px rgba(255,199,199,0.25);
+    }
+  }
+
+  .details {
+    width: 100%;
+
+    @media screen and (min-width: 769px) {
+      width: 80%;
+      padding-left: 1em;
+    }
+  }
+}
+
+.feed-count {
+  @include monospace;
+}
+.page-items {
+  .page-item {
+    margin-bottom: 1rem;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+    padding-bottom: 1rem;
+  }
+}
+
+.fields {
+  margin-bottom: .5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  .field {
+    width: 100%;
+    margin-bottom: 0;
+
+    &.field-small {
+      width: auto;
+    }
+
+    .field-name {
+      opacity: .5;
+      font-size: .7em;
+      @include monospace;
+      &::before {
+        content: "/";
+      }
+    }
+  }
+
+  // Stack vertically on small screens
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    .field.field-small {
+      width: 100%;
+    }
+  }
+}
+
+.background-effect {
+  position: relative;
+  background-size: 20px 20px;
+  background-image: radial-gradient(circle, rgba(255,255,255,0.05) 1px, rgba(0, 0, 0, 1) 1px);
+}
+
+.background-effect::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  /* Noise overlay */
+  background-image: url('/images/noise4.jpg');
+  background-repeat: repeat;
+  background-size: 320px 240px;
+
+  /* Subtle effect */
+  opacity: 0.10;
+  pointer-events: none; /* Prevent interaction */
+}
+
+.highlights {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  h2 {
+    text-align: center;
+  }
+
+  // Switch to row layout on wider screens
+  @media screen and (min-width: 769px) {
+    flex-direction: row;
+  }
+
+  .highlight {
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    border: 1px dashed grey;
+    box-shadow: 0px 0px 10px 2px rgba(200,0,0,0.45);
+    padding: 1em;
+
+    @media screen and (min-width: 769px) {
+      width: 50%;
+    }
+
+    .highlight-actions {
+      text-align: center;
+      .button {
+        display: inline-block;
+      }
+    }
+  }
+
+}
+
+.slogan {
+  text-align: center;
+  font-size: 3.7em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 1.2em 0;
+  max-width: 660px;
+  margin: 1.3em auto;
+}
+.pitch {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: justify;
+}
