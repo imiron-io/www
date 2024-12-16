@@ -1,7 +1,15 @@
-# Public website
+# Imiron's public website
 
-Make sure to clone with submodules, like this:
+- You can use the nix flake to get all build dependencies.
+- The webite is built using [Hugo](https://gohugo.io/).
+- The CI will automatically deploy the website to GitHub pages.
+- We have made a custom theme (`themes/imi`).
+- We use the [Bulma](https://bulma.io/) CSS framework.
 
-```
-git clone --recurse-submodules git@github.com:imiron-io/gohugo-theme-ananke.git
-```
+## Development
+
+- You can build the website with `hugo` command.
+- If you want to include `draft` posts, use `hugo -D`.
+- You can start the hugo development server with `hogo server`. This will launch a local server which will automatically update when you edit files.
+- The CSS can be built with the command `npm run build-bulma` from within the `imi` theme folder (`themes/imi`).
+- You can also run `npm run start` to automatically build the CSS file whenever `main.scss` is edited.
