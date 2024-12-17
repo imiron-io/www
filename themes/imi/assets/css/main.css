@@ -21564,8 +21564,9 @@ h1.title::after {
   font-size: 1.5em;
   line-height: 1;
   padding: 0.3em 0.4em 0.23em 0.31em;
-  border: 1px solid rgba(21, 114, 161, 0.8);
+  border: 1px solid rgba(21, 114, 161, 0.6);
   background-color: rgba(20, 22, 26, 0.9);
+  border-radius: 0px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 40, 0.5);
@@ -21577,7 +21578,7 @@ h1.title::after {
 }
 
 .navbar-main {
-  border-bottom: 1px solid rgba(21, 114, 161, 0.4);
+  border-bottom: 1px solid rgba(21, 114, 161, 0.6);
   font-family: "IBM Plex Mono", monospace;
 }
 .navbar-main .page-translate-link {
@@ -21595,6 +21596,7 @@ body main.section div.container.container-main-content {
   background-color: rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 20px 1px rgba(21, 114, 161, 0.28);
   border: 1px dashed rgba(255, 255, 255, 0.12);
+  border-radius: 0px;
   padding: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -21717,6 +21719,7 @@ body main.section div.container.container-main-content {
 }
 .highlights .highlight {
   background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0px;
   width: 100%;
   border: 1px dashed rgba(255, 255, 255, 0.12);
   box-shadow: 0px 0px 10px 2px rgba(21, 114, 161, 0.45);

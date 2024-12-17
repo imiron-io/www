@@ -4,7 +4,7 @@ description: ""
 ---
 
 <div class="slogan">
-A formal and logic-based engineering platform for safe, reliable and accountable mission critical systems 
+The formal and logic-based engineering for safety and accountability.
 </div>
 
 <p class="pitch">
