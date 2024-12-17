@@ -1,5 +1,6 @@
 // Set your brand colors
 $blue: #1572a1;
+$light-blue: #50b5e8;
 
 // Path to Bulma's sass folder
 @use "bulma/sass" with (
@@ -18,11 +19,11 @@ $blue: #1572a1;
 
 h1.title {
   font-size: 4rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 h1.title::after {
   content: '/';
-  color: red;
+  color: $blue;
   @include monospace;
 }
 .content h2 {
@@ -30,12 +31,11 @@ h1.title::after {
   font-size: 1.5em;
   line-height: 1;
   padding: .3em .4em .23em .31em;
-  border: 1px solid rgb(120, 0, 0);
-  background-color: rgb(225, 225, 225);
-  color: black;
+  border: 1px solid rgba($blue, 0.8);
+  background-color: rgba(#14161a, 0.9);
   text-transform: uppercase;
   letter-spacing: .05em;
-  box-shadow: inset 0px 0px 4px 1px rgba(40,0,0,0.5);
+  box-shadow: inset 0px 0px 4px 1px rgba(0,0,40,0.5);
 }
 .subtitle {
   font-size: .9em;
@@ -43,13 +43,13 @@ h1.title::after {
 }
 
 .navbar-main {
-  border-bottom: 1px solid #4f100b;
+  border-bottom: 1px solid rgba($blue, 0.4);
   @include monospace;
   .page-translate-link {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid $light-blue;
   }
   a[aria-current="page"] {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid $light-blue;
   }
 }
 
@@ -58,8 +58,8 @@ body main.section div.container.container-main-content {
 }
 
 .team-member {
-  background-color: rgba(0,0,0,0.36);
-  box-shadow: 0px 0px 20px 1px rgba(200,0,0,0.28);
+  background-color: rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 20px 1px rgba($blue, 0.28);
   border: 1px dashed rgba(255, 255, 255, 0.12);
   padding: 1.5rem;
   margin-top: 2rem;
@@ -192,8 +192,8 @@ body main.section div.container.container-main-content {
   .highlight {
     background-color: rgba(0,0,0,0.3);
     width: 100%;
-    border: 1px dashed grey;
-    box-shadow: 0px 0px 10px 2px rgba(200,0,0,0.45);
+    border: 1px dashed rgba(white, 0.12);
+    box-shadow: 0px 0px 10px 2px rgba($blue,0.45);
     padding: 1em;
 
     @media screen and (min-width: 769px) {
