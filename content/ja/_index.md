@@ -22,8 +22,16 @@ The formal and logic-based engineering for safety and accountability.
       <button class="button">Apply</button>
     </div>
   </div>
-  
+
   <div class="highlight">
+    <h2>Seed round</h2>
+    <p>We've closed our seed round to advance temporal logic and formal verification, enhancing safety, reliability, and accountability in complex systems.</p>
+    <div class="highlight-actions">
+      <a class="button" href="/ja/post/seed-round/">Read press release</a>
+    </div>
+  </div>
+  
+  <!-- <div class="highlight">
     <h2>Haskell meetup</h2>
     <p>Imiron is hosting a <code>Haskell</code> meetup in Tokyo.</p>
     <div class="fields">
@@ -40,7 +48,8 @@ The formal and logic-based engineering for safety and accountability.
         <div class="field-item"><a href="todo.com">meetup.com</a></div>
       </div>
     </div>
-  </div>
-  
+  </div> -->
+
+
 </div>
 
