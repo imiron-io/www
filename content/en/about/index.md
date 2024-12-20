@@ -10,7 +10,6 @@ Imiron (意味論) means _semantics_ in Japanese:
   <li>The practice and technology about modelling behaviour in mathematical terms with the aim of understanding its essence.
 </ol>
 
-
 ## Team
 
 <div class="team-member">
@@ -45,8 +44,7 @@ Imiron (意味論) means _semantics_ in Japanese:
   <div class="details">
     <h3 class="name">James Haydon</h2>
     <p class="position">CTO / Founder</p>
-    <p>
-    After serving as a tech lead at several startups in the UK, Germany, and other countries, he became the Development Team Chief for the JST ERATO Hasuo Metamathematics for Systems Design Project at the National Institute of Informatics. He has deep expertise in software development, particularly in functional programming. Ph.D., University of Oxford, UK.
-    </p>
+    <p>Dr. James Haydon brings a rare combination of deep theoretical knowledge and practical engineering expertise to Imiron. With an M.Sci. from Imperial College London in Computer Science, a Ph.D. in Mathematics from the University of Oxford specializing in Algebraic Geometry and Category Theory, and experience as a senior engineer and tech lead at several prestigious companies including Europe's leading functional programming consultancy, James bridges the gap between advanced mathematics and production-ready software systems.</p>
+    <p>Prior to joining Imiron, James served as the Development Team Lead for the JST ERATO Metamathematics Project at Japan's National Institute of Informatics, where he worked alongside Prof. Ichiro Hasuo, applying formal methods to complex systems design. His expertise spans domain-specific language development, functional programming, and web systems architecture.</p>
   </div>
 </div>

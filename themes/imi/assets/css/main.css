@@ -21688,7 +21688,7 @@ body main.section div.container.container-main-content {
 .background-effect {
   position: relative;
   background-size: 20px 20px;
-  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, rgb(0, 0, 0) 1px);
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0.3px, rgba(0, 0, 0, 0.5) 1px);
 }
 
 .background-effect::before {
@@ -21702,9 +21702,9 @@ body main.section div.container.container-main-content {
   background-image: url("/images/noise4.jpg");
   background-repeat: repeat;
   background-size: 320px 240px;
-  /* Subtle effect */
   opacity: 0.1;
-  pointer-events: none; /* Prevent interaction */
+  pointer-events: none;
+  z-index: -1;
 }
 
 .highlights {
@@ -21722,7 +21722,7 @@ body main.section div.container.container-main-content {
   }
 }
 .highlights .highlight {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 0px;
   width: 100%;
   border: 1px dashed rgba(255, 255, 255, 0.12);
@@ -21755,6 +21755,19 @@ body main.section div.container.container-main-content {
   max-width: 640px;
   margin: 0 auto;
   text-align: justify;
+}
+
+.footer {
+  padding: 1.8em;
+  margin-top: 2em;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
+  font-size: 0.85em;
+  font-family: "IBM Plex Mono", monospace;
+}
+.footer .footer-inner {
+  background-color: red;
+  z-index: 100;
 }
 
 /*# sourceMappingURL=main.css.map */
