@@ -4,7 +4,7 @@ description: ""
 ---
 
 <div class="slogan">
-The formal and logic-based engineering for safety and accountability.
+Formal and logic-based engineering for safety and accountability.
 </div>
 
 <p class="pitch">
