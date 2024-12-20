@@ -3,6 +3,8 @@ date = '2024-12-19T14:42:50+09:00'
 title = 'Keep calculations out of your effectful code'
 author = "James Haydon"
 tags = ["Tech Blog", "haskell"]
+description = "A methodology for keeping effectful code clean."
+summary = "We often hear that we should strive for function purity for many reasons: referential transparency, testability, easier to reason about, etc. But what about when effects are necessary? This post presents a methodology for keeping effectful code clean."
 +++
 
 When discussing function purity (vs effects), we often hear that we should strive for purity because it makes for code which is easier to test and reason about. But this advice can feel impractical when the whole point of our code is to produce side-effects like printing output. We can't just _not_ do that.

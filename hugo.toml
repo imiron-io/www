@@ -47,6 +47,8 @@ unsafe= true
         weight = 500
   [languages.ja]
   title = "Imiron"
+  # This is used for the root meta-descrpiption tag. So it's important!
+  description = "Technology startup leveraging temporal logic and formal verification expertise to enhance safety and reliability in AI-enabled systems and complex software."
   contentDir = "content/ja"
   languageName = "JP"
   languageCode = "ja-JP"
@@ -86,6 +88,7 @@ author = "Imiron Co., Ltd."
 omit_header_text = true
 favicon = "images/imiron_favicon.png"
 site_logo = "images/imiron_logo.png"
-description = "Imiron website" # TODO
+# This is used for the root meta-descrpiption tag. So it's important!
+description = "Technology startup leveraging temporal logic and formal verification expertise to enhance safety and reliability in AI-enabled systems and complex software."
 recent_posts_number = 10
 date_format = ":date_full"
