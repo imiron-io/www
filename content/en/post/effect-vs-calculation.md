@@ -103,7 +103,7 @@ By moving all calculations out of the effectful functions, they become less nois
 Let's look at a more realistic example , some code to register a user to some web service. First, here's a version of the code which mixing calculations and effects:
 
 ```haskell
-data User = UserInput
+data User = User
   { username :: String,
     email :: String,
     passwordHash :: String,
@@ -143,7 +143,7 @@ registerUserBad = do
 And here is the improved version:
 
 ```haskell
-data User = UserInput
+data User = User
   { username :: String,
     email :: String,
     passwordHash :: String,
