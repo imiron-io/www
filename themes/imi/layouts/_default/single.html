@@ -11,6 +11,13 @@
       {{ if $.Date }} · {{ end }}
       <span class="author">{{ . }}</span>
     {{ end }}
+    {{ with .Params.tags }}
+      <div class="tags">
+        {{ range . }}
+          <a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+      </div>
+    {{ end }}
   </div>
 
   <div class="content">

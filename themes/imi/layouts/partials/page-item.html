@@ -24,7 +24,7 @@
         <div class="field-name">tags</div>
         <div class="field-item">
           {{ range . }}
-          <span class="tag">{{ . }}</span>
+            <a class="tag" href="/tags/{{ . | urlize }}">{{ . }}</a>
           {{ end }}
         </div>
       </div>
