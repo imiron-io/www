@@ -31,6 +31,8 @@ In Haskell, the above manifests itself as the `Arrow` typeclass (see e.g. [Freyd
 - `first` and `second`: "wiring" functions for carrying pure values
 - `(|||)`: handling coproducts (branching) via (in `ArrowChoice`)
 
+and it's various superclasses:
+
 ```haskell
 class Category cat where
     id :: cat a a
@@ -59,7 +61,7 @@ But writing code with these methods directly is cumbersome, which is why Haskell
 
 ## In Practice
 
-Let's look at what this means for typical monadic code using do-notation. Your effectful code should only consist of only the following:
+Let's look at what this means for typical monadic code using do-notation. Your effectful code should only consist of the following:
 
 1. Sequencing effects, i.e. calling other effectful function and using bind `<-`,
 2. Branching (`if _ then _ else _` or `case _ of`),
@@ -83,7 +85,7 @@ calculator = do
     putStrLn ("The sum is: " <> show (x + y))
 ```
 
-According to the above rules, the illegal thing here is `putStrLn ("The sum is: " ++ show (x + y))`, because `calculator` is meant to only orchestrate effects, but it contains a pure calculation: `"The sum is: " ++ show (x + y)`. So, we must move this calculation to another function:
+According to the above rules, the illegal thing here is `putStrLn ("The sum is: " <> show (x + y))`, because `calculator` is meant to only orchestrate effects, but it contains a pure calculation: `"The sum is: " <> show (x + y)`. So, we must move this calculation to another function:
 
 ```haskell
 calculate :: Int -> Int -> String
@@ -102,7 +104,7 @@ By moving all calculations out of the effectful functions, they become less nois
 
 ## More Complex Example: User Registration
 
-Let's look at a more realistic example , some code to register a user to some web service. First, here's a version of the code which mixing calculations and effects:
+Let's look at a more realistic example , some code to register a user to some web service. First, here's a version of the code which mixes calculations and effects:
 
 ```haskell
 data User = User
@@ -139,7 +141,7 @@ registerUserBad = do
                             createdAt = now
                           }
                   saveUserToDB user
-                  putStrLn $ "Welcome " ++ username ++ "! Registration successful!"
+                  putStrLn $ "Welcome " <> username <> "! Registration successful!"
 ```
 
 And here is the improved version:
@@ -179,7 +181,7 @@ newUser UserInput {..} =
 
 welcomeMessage :: String -> String
 welcomeMessage username =
-  "Welcome " ++ username ++ "! Registration successful!"
+  "Welcome " <> username <> "! Registration successful!"
 
 passwordMatch :: String -> String -> Bool
 passwordMatch = (==)
@@ -220,11 +222,11 @@ This example highlighted some things that crop up when trying to follow this sty
 - _Literals:_ All the literal strings have been lifted out. For small literals, you might choose to keep them in the effectful code.
 - _Does `UserInput {currentTime = now, ..}` beak the rules?_ Some functions you invoke (effectful or pure) take a product type as input. Often you have to assemble the input from various sources, this is part of the orchestration. When using `Arrow` and desuraging `proc`-notation, GHC will use a lot of tuples and tuple-manipulating functions. Similarly it's okay to deconstruct tuples/records in patterns.
 - In this example the code has become quite nested, there are ways around this (e.g. [The trick to avoid deeply-nested error-handling code](https://www.haskellforall.com/2021/05/the-trick-to-avoid-deeply-nested-error.html "Haskell for all")), but I didn't want to detract from the main point of this blog post.
-- You can break the rules in small places. For example sometimes you want to one branch of an `if _ then _ else _` to appear before the other, and so you need to use a `not` in the condition.
+- You can break the rules in small places. For example sometimes you want one branch of an `if _ then _ else _` to appear before the other, and so you need to use a `not` in the condition.
 - Note also that following the principles guides us to creating a new type `UserInput`, for collecting all the data that needs to be passed to the `newUser` calculation.
 
 ## Conclusion
 
 Separating effects from calculations isn't just theoretical advice - it's a practical approach to writing more maintainable code. By moving calculations out of the effectful functions, we've created code that follows many other principles for maintainable code: small, focused functions, menaingful intermediate types, independently testable units, etc.
 
-[^1]: I'm not talking here about using a mutable reference cell when you don't need one, of course. I'm talking about majing network requests, printing to `stdout`, etc.
+[^1]: I'm not talking here about using a mutable reference cell when you don't need one, of course. I'm talking about making network requests, printing to `stdout`, etc.
