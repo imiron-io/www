@@ -7,7 +7,7 @@ description = "A methodology for keeping effectful code clean."
 summary = "関数の純粋性を追求すべき理由として、参照透過性、テスト容易性、理解のしやすさなど、様々な利点をよく耳にします。しかし、副作用が必要な場合はどうすればよいでしょうか？この投稿では、副作用のあるコードをクリーンに保つための方法論を紹介します。"
 +++
 
-<h3> 副作用のあるコードから計算処理を分離しておきましょう</h3>
+<h4> 副作用のあるコードから計算処理を分離しておきましょう</h4>
 
 When discussing function purity (vs effects), we often hear that we should strive for purity because it makes for code which is easier to test and reason about. But this advice can feel impractical when the whole point of our code is to produce side-effects like printing output. We can't just _not_ do that.
 

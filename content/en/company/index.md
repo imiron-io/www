@@ -34,6 +34,11 @@ August 20, 2024
 
 ---
 
+##### Contact
+info@imiron.io
+
+---
+
 ##### Address
 〒101-0041</br>
 2-3-12 Kanda Sudacho, Chiyoda-ku, Tokyo  
