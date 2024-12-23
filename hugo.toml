@@ -48,7 +48,8 @@ unsafe= true
   [languages.ja]
   title = "Imiron"
   # This is used for the root meta-descrpiption tag. So it's important!
-  description = "Technology startup leveraging temporal logic and formal verification expertise to enhance safety and reliability in AI-enabled systems and complex software."
+  # description = "Technology startup leveraging temporal logic and formal verification expertise to enhance safety and reliability in AI-enabled systems and complex software."
+  description = "イミロンは、数理論理学と形式手法における世界トップクラスの専門知識を活用し、ミッションクリティカルシステムの安全性、信頼性、説明性の実現を支えるテクノロジースタートアップです。"
   contentDir = "content/ja"
   languageName = "JP"
   languageCode = "ja-JP"
