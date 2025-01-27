@@ -14,21 +14,31 @@ Formal and logic-based engineering for safety and accountability.
 <div class="highlights">
 
   <div class="highlight">
+    <h2>Haskell meetup</h2>
+    <p><code>Haskell</code> meetup in Tokyo を開催します!</p>
+    <div class="fields">
+      <div class="field field-small">
+        <div class="field-name">date</div>
+        <div class="field-item">2025-02-19</div>
+      </div>
+      <div class="field field-small">
+        <div class="field-name">location</div>
+        <div class="field-item">秋葉原 12KANDA</div>
+      </div>
+      <div class="field field-small">
+        <div class="field-name">registration</div>
+        <div class="field-item"><a href="https://www.meetup.com/tokyo-haskell-meetup/events/305838131/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link">meetup.com</a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="highlight">
     <h2>Join the team</h2>
     <p>イミロンでは、価値観を共有し、共にミッションの実現を目指せる仲間を募集しております。以下のページより詳細をご確認頂き、ご応募ください。</p>
     <!-- <p>We're looking for great people to join us. See our hiring page to see what sort of people we're looking for and register your interest.</p> -->
     <div class="highlight-actions">
       <a class="button" href="career">Hiring</a>
       <a class="button" href="https://forms.gle/UMskqwRAN7akSEXJ8">Apply</a>
-    </div>
-  </div>
-
-  <div class="highlight">
-    <h2>Seed round</h2>
-    <!-- <p>We've closed our seed round to advance temporal logic and formal verification, enhancing safety, reliability, and accountability in complex systems.</p> -->
-    <p>シードラウンド資金調達を完了しました。引き続き研究開発を進め、論理学を土台としたシステム高信頼化サービスのさらなる充実を目指します。</p>
-    <div class="highlight-actions">
-      <a class="button" href="/ja/post/seed-round/">Read press release</a>
     </div>
   </div>
   
