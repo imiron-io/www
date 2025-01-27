@@ -14,6 +14,25 @@ Founded by leading researchers from ERATO MMSD, a renowned research group in the
 <div class="highlights">
 
   <div class="highlight">
+    <h2>Haskell meetup</h2>
+    <p>Imiron is hosting a <code>Haskell</code> meetup in Tokyo!</p>
+    <div class="fields">
+      <div class="field field-small">
+        <div class="field-name">date</div>
+        <div class="field-item">2025-02-19</div>
+      </div>
+      <div class="field field-small">
+        <div class="field-name">location</div>
+        <div class="field-item">Akihabara</div>
+      </div>
+      <div class="field field-small">
+        <div class="field-name">registration</div>
+        <div class="field-item"><a href="https://www.meetup.com/tokyo-haskell-meetup/events/305838131/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link">meetup.com</a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="highlight">
     <h2>Join the team</h2>
     <p>We're looking for great people to join us. See our hiring page to see what sort of people we're looking for and register your interest.</p>
     <div class="highlight-actions">
@@ -22,30 +41,11 @@ Founded by leading researchers from ERATO MMSD, a renowned research group in the
     </div>
   </div>
   
-  <div class="highlight">
-    <h2>Seed round</h2>
-    <p>We've closed our seed round to advance temporal logic and formal verification, enhancing safety, reliability, and accountability in complex systems.</p>
-    <div class="highlight-actions">
-      <a class="button" href="/post/seed-round/">Read press release</a>
-    </div>
-  </div>
-  
   <!-- <div class="highlight"> -->
-  <!--   <h2>Haskell meetup</h2> -->
-  <!--   <p>Imiron is hosting a <code>Haskell</code> meetup in Tokyo.</p> -->
-  <!--   <div class="fields"> -->
-  <!--     <div class="field field-small"> -->
-  <!--       <div class="field-name">date</div> -->
-  <!--       <div class="field-item">2024-02-02</div> -->
-  <!--     </div> -->
-  <!--     <div class="field field-small"> -->
-  <!--       <div class="field-name">location</div> -->
-  <!--       <div class="field-item">Akihabara</div> -->
-  <!--     </div> -->
-  <!--     <div class="field field-small"> -->
-  <!--       <div class="field-name">registration</div> -->
-  <!--       <div class="field-item"><a href="todo.com">meetup.com</a></div> -->
-  <!--     </div> -->
+  <!--   <h2>Seed round</h2> -->
+  <!--   <p>We've closed our seed round to advance temporal logic and formal verification, enhancing safety, reliability, and accountability in complex systems.</p> -->
+  <!--   <div class="highlight-actions"> -->
+  <!--     <a class="button" href="/post/seed-round/">Read press release</a> -->
   <!--   </div> -->
   <!-- </div> -->
   
