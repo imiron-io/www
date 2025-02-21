@@ -9,6 +9,10 @@ At Imiron, we're on a mission to push the boundaries of technology in a critical
 
 We're seeking talented individuals across a range of engineering disciplines. Some of our positions will require strong academic credentials (PhD+), whereas for others practical experience and a proven track record are more important than formal qualifications.
 
+At the moment we are specifically hiring for two roles:
+- Junior Haskell Software Engineer.
+- Junior Frontend Sofware Engineer (Typescript/Svelte).
+
 ## Our Tech Stack and Approach
 
 - Our backend systems primarily use Haskell and embrace functional programming principles.
