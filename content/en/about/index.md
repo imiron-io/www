@@ -14,7 +14,7 @@ Imiron (意味論) means _semantics_ in Japanese:
 
 <div class="team-member">
   <div class="photo">
-    <img src="/images/ichiro.jpg" />
+    <img src="/images/12652.jpg" />
   </div>
   <div class="details">
     <h3 class="name">Ichiro Hasuo</h2>
@@ -27,7 +27,7 @@ Imiron (意味論) means _semantics_ in Japanese:
 
 <div class="team-member">
   <div class="photo">
-    <img src="/images/masa.jpg"/>
+    <img src="/images/12488.jpg"/>
   </div>
   <div class="details">
     <h3 class="name">Masakazu Adachi</h2>
@@ -42,7 +42,7 @@ Imiron (意味論) means _semantics_ in Japanese:
 
 <div class="team-member">
   <div class="photo">
-    <img src="/images/james.jpg"/>
+    <img src="/images/12576.jpg"/>
   </div>
   <div class="details">
     <h3 class="name">James Haydon</h2>

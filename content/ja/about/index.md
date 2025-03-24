@@ -14,7 +14,7 @@ build:
 
 <div class="team-member">
   <div class="photo">
-    <img src="/images/ichiro.jpg" />
+    <img src="/images/12652.jpg" />
   </div>
   <div class="details">
     <h3 class="name">蓮尾 一郎</h2>
@@ -27,7 +27,7 @@ build:
 
 <div class="team-member">
   <div class="photo">
-    <img src="/images/masa.jpg"/>
+    <img src="/images/12488.jpg"/>
   </div>
   <div class="details">
     <h3 class="name">足立 正和</h2>
@@ -40,7 +40,7 @@ build:
 
 <div class="team-member">
   <div class="photo">
-    <img src="/images/james.jpg"/>
+    <img src="/images/12576.jpg"/>
   </div>
   <div class="details">
     <h3 class="name">James Haydon</h2>
