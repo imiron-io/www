@@ -27,7 +27,7 @@ build:
 
 <div class="team-member">
   <div class="photo">
-    <img src="/images/12488.jpg"/>
+    <img src="/images/12534.jpg"/>
   </div>
   <div class="details">
     <h3 class="name">足立 正和</h2>
